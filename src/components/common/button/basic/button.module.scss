@@ -1,0 +1,94 @@
+@import "../../../app/app.module.scss";
+.button {
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+    border: 1px solid transparent;
+    padding: unset;
+}
+
+.textButton {
+    border: 1px solid transparent;
+    border-radius: 2.5%;
+    padding: 0.3em 0.6em 0.3em 0.6em;
+}
+
+.textButton.basic {
+    background-color: var(--light-bg-color);
+    color: var(--dark-text-color);
+    &:hover {
+        border: 1px solid var(--main-site-color);
+    }
+    &:active {
+        background-color: var(--main-site-color);
+        color: var(--light-text-color);
+    }
+}
+
+.textButton.important {
+    background-color: var(--main-site-color);
+    color: var(--light-text-color);
+    &:hover {
+        border: 1px solid var(--light-text-color);
+    }
+    &:active {
+        background-color: var(--light-bg-color);
+        color: var(--dark-text-color);
+    }
+}
+
+.textButton.discreet {
+    background-color: transparent;
+    border: 1px solid var(--light-text-color);
+    color: var(--light-text-color);
+    &:hover {
+        border: 1px solid var(--main-site-color);
+    }
+    &:active {
+        background-color: var(--main-site-color);
+        color: var(--light-text-color);
+    }
+}
+
+.fafaButton {
+    font-size: 1.2em;
+    background-color: transparent;
+}
+
+.fafaButton.basic {
+    color: var(--light-text-color);
+    &:hover {
+        color: var(--main-site-color);
+    }
+    &:active {
+        color: var(--light-text-color);
+    }
+}
+
+.fafaButton.discreet {
+    color: var(--light-text-color);
+    &:hover {
+        color: var(--main-site-color);
+    }
+    &:active {
+        color: var(--light-text-color);
+    }
+}
+
+.fafaButton.danger {
+    color: red;
+    &:hover {
+        color: var(--light-text-color);
+    }
+    &:active {
+        color: var(--main-site-color);
+    }
+}
+
+.after {
+    margin: 0 0.2em 0 0.5em;
+}
+
+.before {
+    margin: 0 0.5em 0 0.2em;
+}

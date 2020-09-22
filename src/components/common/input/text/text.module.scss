@@ -1,0 +1,19 @@
+@import "../input.module.scss";
+.container {
+    display: flex;
+}
+
+.inputContainer {
+    display: inline;
+}
+
+.input {
+    padding: 2px 2px 0px 2px;
+    margin: unset;
+}
+
+.underline {
+    background-color: white;
+    width: 100%;
+    height: 0.5px;
+}

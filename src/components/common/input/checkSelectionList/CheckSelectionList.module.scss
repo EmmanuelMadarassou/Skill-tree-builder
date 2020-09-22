@@ -1,0 +1,51 @@
+@import "../input.module.scss";
+.container {
+    min-width: 260px;
+}
+
+.inputContainer {
+    display: flex;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+.itemlist {
+    display: flex;
+    list-style: none;
+    margin: 0.5em 10px 0.5em 10px;
+    background-color: var(--dark-bg-color)
+}
+
+.list {
+    margin: unset;
+    width: -webkit-fill-available;
+}
+
+.itemListButton {
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+.listContainer {
+    background-color: rgba(255, 255, 255, 0.075);
+    padding: 0.1em;
+}
+
+.listContainer .itemList {
+    &:hover {
+        background-color: var(--main-site-color);
+        cursor: pointer
+    }
+}
+
+.check {
+    width: -webkit-fill-available;
+    padding: 0.5em;
+}
+
+.info span {
+    white-space: nowrap;
+}

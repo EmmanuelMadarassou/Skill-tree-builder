@@ -1,0 +1,16 @@
+@import "../input.module.scss";
+.container {
+    display: flex;
+}
+
+.label {
+    display: inline-block;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.input {
+    padding: unset;
+    margin: auto 10px auto 0;
+}

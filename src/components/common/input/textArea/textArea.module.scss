@@ -1,0 +1,8 @@
+@import "../input.module.scss";
+.container {
+    display: grid;
+}
+
+.input {
+    border: var(--input-width-border) solid rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,42 @@
+@import "../../app/app.module.scss";
+:root {
+    --input-width-border: 1px;
+    --light-bg-color: white;
+    --dark-text-color: #313638;
+    --light-text-color: white;
+    --main-site-color: #f09d51;
+}
+
+.container {
+    background-color: transparent;
+    color: var(--light-text-color);
+    padding: 1px;
+    font-size: var(--text-font-size);
+}
+
+.label {
+    vertical-align: middle;
+    margin-right: 5px;
+    font-size: var(--text-font-size);
+}
+
+.input {
+    font-size: var(--text-font-size);
+    padding: 2px 2px 0px 2px;
+    display: block;
+    cursor: pointer;
+    border-radius: 2%;
+    background-color: transparent;
+    border: var(--input-width-border) solid transparent;
+    color: var(--light-text-color);
+    &:hover {
+        border: var(--input-width-border) solid var(--light-bg-color);
+    }
+    &:focus {
+        border: var(--input-width-border) solid var(--main-site-color);
+        background: var(--light-bg-color);
+        outline-offset: 0;
+        outline: unset;
+        color: var(--dark-text-color);
+    }
+}

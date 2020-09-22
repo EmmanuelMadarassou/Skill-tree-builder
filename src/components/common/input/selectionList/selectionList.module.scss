@@ -1,0 +1,28 @@
+@import "../input.module.scss";
+.container {
+    min-width: 260px;
+}
+
+.inputContainer {
+    display: flex;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+.itemlist {
+    display: flex;
+    list-style: none;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.list {
+    margin: unset;
+}
+
+.itemListButton {
+    margin-left: auto;
+    margin-right: 1em;
+}
